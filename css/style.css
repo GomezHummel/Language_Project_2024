@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5; /* light grey background */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333; /* dark grey */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0074D9; /* PHP blue */
+    color: #FFF; /* text color */
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3; /* darker shade on hover */
+}
+
+.form-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-student-button {
+    background-color: #0074D9; /* PHP blue */
+    color: #FFF; /* text color */
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-student-button:hover {
+    background-color: #0056b3; /* darker shade on hover */
+}
+
+.student {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.student-details {
+    flex-grow: 1;
+}
+
+.delete-form {
+    margin-left: 10px;
+}
+
+.delete-button {
+    background-color: #dc3545; /* red color */
+    color: #fff; /* text color */
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* darker shade on hover */
+}
