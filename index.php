@@ -14,6 +14,7 @@
         <div class="button-container">
             <a href="gradebook.php" class="button">Gradebook</a>
             <a href="tasktracker.php" class="button">Task Tracker</a>
+            <a href="api.php" class="button">Random Country Generator</a>
         </div>
     </div>
 </body>
