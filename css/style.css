@@ -93,3 +93,23 @@ body {
 .delete-button:hover {
     background-color: #c82333; /* darker shade on hover */
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px; /* Adjust the padding as needed */
+    text-align: left;
+}
+
+/* Optional: Add border around table cells */
+th, td {
+    border: 1px solid #ddd;
+}
+
+/* Optional: Change border color and style */
+th {
+    border-bottom: 2px solid #ddd; /* thicker border for header row */
+}

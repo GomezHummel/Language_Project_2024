@@ -12,8 +12,8 @@
     <div class="container">
         <h1 class="title">PHP Language Project</h1>
         <div class="button-container">
-            <a href="gradebook.php" class="button">Gradebook (CRUD Example)</a>
-            <a href="other_example.php" class="button">Other Example</a>
+            <a href="gradebook.php" class="button">Gradebook</a>
+            <a href="tasktracker.php" class="button">Task Tracker</a>
         </div>
     </div>
 </body>
